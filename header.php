@@ -33,7 +33,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1 id="logo"><img src="images/logo.png" class="logo-brand"><a href="index.html">&nbsp;Fiex</a></h1>
+				<h1 id="logo"><img src="images/logo.png" class="logo-brand"><a href="index.php">&nbsp;Fiex</a></h1>
 				<nav id="nav">
 					<ul>
 						<!-- <li class="current"><a href="index.html">Welcome</a></li>
@@ -56,7 +56,7 @@
 								</li>
 							</ul>
 						</li> -->
-						<li><a href="signup.html" class="button special">Sign Up</a></li>
+						<li><a href="signup.php" class="button special">Sign Up</a></li>
 					</ul>
 				</nav>
 			</header>

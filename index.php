@@ -19,7 +19,7 @@
 					breaks borders and cuts fees by 95%.</p>
 					<footer>
 						<ul class="buttons vertical">
-							<li><a href="#main" class="button scrolly">Learn More</a></li>
+							<li><a href="#main" class="button scrolly">Scroll Down</a></li>
 						</ul>
 					</footer>
 
@@ -32,7 +32,10 @@
 
 				<header class="special container">
 					<div class="row 200%">
-						<div class="2u -5u"> <img src="images/logo.png" class="img"> </div>					 
+						<div class="5u"> <hr> </div>
+						<div class="2u"> <img src="images/logo.png" class="img"> </div>
+						<div class="5u"> <hr> </div>
+
 					</div>
 					<h2>Break Borders. <strong>Fiex</strong> It.</h2>
 					<!-- <p>Fiex aims to minimize the hidden fees in international money transfers. <br>
