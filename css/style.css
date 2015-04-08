@@ -1141,7 +1141,7 @@ select {
 
  /* Helpers */
 
- input.full-width {
+ .full-width {
  	min-width: 100%;
  	width: 100%;
  }

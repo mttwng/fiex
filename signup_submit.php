@@ -9,7 +9,7 @@ $recipient = "mattysoccer@gmail.com";
 $subject = "Subscribe";
 
 # RESULT PAGE
-$location = "signup_done.html";
+$location = "signup_done.php";
 
 ## FORM VALUES ##
 

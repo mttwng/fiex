@@ -19,7 +19,7 @@
 					breaks borders and cuts fees by 95%.</p>
 					<footer>
 						<ul class="buttons vertical">
-							<li><a href="#main" class="button scrolly">Scroll Down</a></li>
+							<li><a href="#main" class="button full-width">Scroll Down</a></li>
 						</ul>
 					</footer>
 
