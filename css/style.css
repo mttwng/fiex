@@ -634,7 +634,7 @@
 		}
 
 		.wrapper.style4 p {
-			text-align: left;
+			text-align: center;
 		}
 
 /* Header */
@@ -738,10 +738,10 @@
 			animation: none;
 			background: transparent;
 			box-shadow: none;
-			color: white;
 			padding: 2em 2.5em;
 			position: absolute;
 		}
+
 			#header.alt img {
 				filter: invert(100%);
 			}
@@ -818,7 +818,6 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #fff;
-		background-image: url("../images/earth.jpg");
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -828,7 +827,7 @@
 		text-align: center;
 	}
 
-		#banner .inner {
+		.home-banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
 			-o-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -846,6 +845,37 @@
 			padding: 3em;
 			text-align: center;
 		}
+
+		#banner .inner {
+			text-align: center;
+			padding: 3em;
+		}
+
+		.home-banner {
+			background-image: url("../images/earth.jpg");
+		}
+
+		.student-banner {
+			background-image: url("../images/students4.jpg");
+
+		}
+
+		.student-banner .inner,
+		.worker-banner .inner,
+		.enterprise-banner .inner {
+			color: black;
+		}
+
+		.worker-banner {
+			background-image: url("../images/workers5.jpg");
+
+		}
+
+		.enterprise-banner {
+			background-image: url("../images/enterprise2.jpg");
+
+		}
+
 
 			#banner .inner header {
 				display: inline-block;
@@ -1151,3 +1181,16 @@ select {
  input.white-border {
  	border: 1px solid white;
  }
+
+ .left {
+ 	text-align: left;
+ }
+
+.people {
+	color: inherit;
+}
+
+.people .icon:hover, 
+.people h3:hover {
+	color: #3fb1a3;
+}

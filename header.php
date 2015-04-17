@@ -1,3 +1,5 @@
+<?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
+
 <!DOCTYPE HTML>
 <!--
 	Twenty by HTML5 UP
@@ -25,9 +27,19 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
+
+		<meta property="og:image" content="images/earth.jpg" />
+		<meta property="og:description" content="Cross-border transactions are expensive. Fiex isn’t. Our innovative mechanism breaks borders and cuts fees by 95%." />
+		<meta property="og:title" content="Fiex" />
+
 		<link rel="icon" type="image/png" href="images/favicon.ico">
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+
+		<?php if ($page == 'index.php' || $page == 'signup.php' || $page == 'signup_done.php') { ?>
+			<style type="text/css">#header.alt {color: white;}</style>			
+		<?php }
+		?> 
 	</head>
 	<body class="index">
 
@@ -56,6 +68,14 @@
 								</li>
 							</ul>
 						</li> -->
+						<li class="submenu">
+							<a href="">Who are you?</a>
+							<ul>
+								<li><a href="students.php">Student</a></li>
+								<li><a href="workers.php">Worker</a></li>
+								<li><a href="enterprise.php">Enterprise</a></li>
+							</ul>
+						</li>
 						<li><a href="signup.php" class="button special">Sign Up</a></li>
 					</ul>
 				</nav>

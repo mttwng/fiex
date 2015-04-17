@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 		<!-- Banner -->
-			<section id="banner">
+			<section id="banner" class="home-banner">
 
 				<!--
 					".inner" is set up as an inline-block so it automatically expands

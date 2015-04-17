@@ -1,14 +1,8 @@
 <?php include 'header.php';?>
 
 		<!-- Banner -->
-			<section id="banner">
+			<section id="banner" class="home-banner">
 
-				<!--
-					".inner" is set up as an inline-block so it automatically expands
-					in both directions to fit whatever's inside it. This means it won't
-					automatically wrap lines, so be sure to use line breaks where
-					appropriate (<br />).
-				-->
 				<div class="inner">
 
 					<header>
@@ -19,7 +13,7 @@
 					breaks borders and cuts fees by 95%.</p>
 					<footer>
 						<ul class="buttons vertical">
-							<li><a href="#main" class="button full-width">Scroll Down</a></li>
+							<li><a href="signup.php" class="button full-width">Sign Up</a></li>
 						</ul>
 					</footer>
 
@@ -62,9 +56,9 @@
 										</select>
 									</div>
 									<br>
-									Send: <input id="amount" type="text" />
+									Send ($USD): <input id="amount" type="text" />
 									<br>
-									Receive (USD): <input id="answer" type="text" name="answer" readonly="readonly"/>
+									Receive: <input id="answer" type="text" name="answer" readonly="readonly"/>
 									<br>
 									<input id="convertButton" type="button" value="Convert"/>
 
@@ -72,26 +66,8 @@
 								</form>
 
 
-								<!-- <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
-								<footer>
-									<ul class="buttons">
-										<li><a href="#" class="button">Find Out More</a></li>
-									</ul>
-								</footer> -->
-
 							</div>
-							<!-- <div class="4u 12u(narrower) important(narrower)">
 
-								<ul class="featured-icons">
-									<li><span class="icon fa-clock-o"><span class="label">Feature 1</span></span></li>
-									<li><span class="icon fa-volume-up"><span class="label">Feature 2</span></span></li>
-									<li><span class="icon fa-laptop"><span class="label">Feature 3</span></span></li>
-									<li><span class="icon fa-inbox"><span class="label">Feature 4</span></span></li>
-									<li><span class="icon fa-lock"><span class="label">Feature 5</span></span></li>
-									<li><span class="icon fa-cog"><span class="label">Feature 6</span></span></li>
-								</ul>
-
-							</div> -->
 						</div>
 					</section>
 
@@ -105,10 +81,12 @@
 							<div class="4u 12u(narrower)">
 
 								<section>
-									<span class="icon featured fa-book"></span>
-									<header>
-										<h3>Students</h3>
-									</header>
+									<a href="students.php" class="people">
+										<span class="icon featured fa-book"></span>
+										<header>
+											<h3>Students</h3>
+										</header>
+									</a>
 									<p>Pay tuition and living expenses with just one click.</p>
 								</section>
 
@@ -116,10 +94,12 @@
 							<div class="4u 12u(narrower)">
 
 								<section>
-									<span class="icon featured fa-user"></span>
-									<header>
-										<h3>Workers</h3>
-									</header>
+									<a href="workers.php" class="people">
+										<span class="icon featured fa-user"></span>
+										<header>
+											<h3>Workers</h3>
+										</header>
+									</a>
 									<p>Send money home with a 100% safety guarantee.</p>
 								</section>
 
@@ -127,10 +107,12 @@
 							<div class="4u 12u(narrower)">
 
 								<section>
-									<span class="icon featured fa-briefcase"></span>
-									<header>
-										<h3>Enterprise</h3>
-									</header>
+									<a href="enterprise.php" class="people">
+										<span class="icon featured fa-briefcase"></span>
+										<header>
+											<h3>Enterprise</h3>
+										</header>
+									</a>
 									<p>Cut costs and ensure profit margins.</p>
 								</section>
 
@@ -150,8 +132,11 @@
 							<h2>How does it work?</h2>
 						</header>
 
-						<img src="images/howto.png" class="img-responsive">			
+						<img src="images/howto.gif" class="img-responsive">			
 						<br>
+						<p style="text-align:justify">	
+							Fiex operates by transferring money within the borders of a currency. As opposed to transferring a sender's money directly to the recipient, the money is redirected through Fiex to a recipient of an equivalent transfer going in the opposite direction. Likewise, the recipient of the transfer receives their payment from a sender of equivalent amount, rather than the sender initiating the transfer. 
+						</p>
 
 					</section>
 
@@ -174,8 +159,8 @@
 									<header>
 										<h3>Jackson Hung</h3>
 									</header>
-									<p>- B.S. Mechanial Engineering<br>
-										- Graphic Design, Photography</p>
+									<p>Stratasys, Product Design<br>
+										M.S. Mechanical Engineering</p>
 								</section>
 
 							</div>
@@ -190,10 +175,10 @@
 									<br>
 
 									<header>
-										<h3>Mira Mi</h3>
+										<h3>Muxin Mi</h3>
 									</header>
-									<p>- B.S. EECS<br>
-										- Analytical, Adventurous</p>
+									<p>3M, Control System Analyst<br>
+										B.S. EECS</p>
 								</section>
 
 							</div>
@@ -210,8 +195,8 @@
 									<header>
 										<h3>Leanne Park</h3>
 									</header>
-									<p>- B.S. Business Administration <br>
-										- Finance, Management, Travel</p>
+									<p>Amazon, Consultant <br>
+										B.S. Business Administration</p>
 								</section>
 
 							</div>
@@ -229,8 +214,8 @@
 									<header>
 										<h3>Matthew Wong</h3>
 									</header>
-									<p>- B.S. EECS<br>
-										- Designer, Ebay PM, Traveler</p>
+									<p>eBay, Product Manager<br>
+										B.S. EECS</p>
 								</section>
 
 							</div>
@@ -247,8 +232,8 @@
 									<header>
 										<h3>Shutao Xu</h3>
 									</header>
-									<p>- B.S. Chemical Engineering<br>
-										- Confident, Conscientious</p>
+									<p>Pfizer<br>
+										B.S. Chemical Engineering</p>
 								</section>
 
 							</div>
@@ -266,8 +251,8 @@
 									<header>
 										<h3>Li Xuena</h3>
 									</header>
-									<p>- B.S. Chemical Engineering<br>
-										- PM, Open-minded, Driven</p>
+									<p>Deutsche, Compliance<br>
+										B.S. Chemical Engineering</p>
 								</section>
 
 							</div>
@@ -276,21 +261,5 @@
 
 
 			</article>
-
-		<!-- CTA -->
-			<!-- <section id="cta">
-
-				<header>
-					<h2>Ready to do <strong>something</strong>?</h2>
-					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
-				</header>
-				<footer>
-					<ul class="buttons">
-						<li><a href="#" class="button special">Take My Money</a></li>
-						<li><a href="#" class="button">LOL Wut</a></li>
-					</ul>
-				</footer>
-
-			</section> -->
 
 <?php include 'footer.php';?>
