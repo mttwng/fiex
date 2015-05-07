@@ -19,8 +19,8 @@
 						when we release. </p>
 					<footer>
 						<form method="post" action="signup_submit.php">
-							<p>Name: <input type="text" name="Name" size="20" class="white-border"></p>
-							<p>Email: <input type="text" name="Email" size="20" class="white-border"></p>
+							<p>Name: <input type="text" name="Name" size="20"></p>
+							<p>Email: <input type="text" name="Email" size="20"></p>
 							<br>
 							<p><input class="full-width" type="submit" value="Submit" name="Submit"></p>
 						</form>

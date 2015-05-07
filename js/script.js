@@ -27,10 +27,11 @@ function calcAnswer()
         value2 = value1 * 6.27;
     } else if(conversionType == "japanese") {
         value2 = value1 * 121.38;
-    } else {
+    } else if(conversionType == "korean"){
         value2 = value1 * 1130.74;
     }
     document.getElementById("answer").value = value2.toFixed(2);
+
 
 
 }

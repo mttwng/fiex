@@ -240,6 +240,14 @@
 		color: rgba(124, 128, 129, 0.5) !important;
 	}
 
+input#save {
+	border: none;
+	display: inline;
+	width: auto;
+	border-bottom: solid 1px black;
+	text-align: center;
+}
+
 /* Image */
 
 	.image {
@@ -551,8 +559,8 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #1ebc61;
-			border-color: #1ebc61; 
+			background: #17b55a;
+			border-color: #17b55a; 
 			color: white !important;
 		}
 
@@ -623,9 +631,9 @@
 		}
 
 		.wrapper.style4 {
-			background-color: #28477D;
-			/*background-color: #47BD79;*/
-			color: white;
+			/*background-color: #48a7bD;*/
+			background-color: #f5f9f9;
+			color: black;
 			padding: 4em;
 		}
 
@@ -699,6 +707,10 @@
 					width: auto;
 				}
 
+				/*This doesn't worl*/
+				#header nav ul li.submenu ul li a {
+					text-align: center;
+				}
 				#header nav ul li.submenu > a:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
@@ -706,6 +718,7 @@
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
+
 				}
 
 				#header nav ul li.submenu > a:before {
@@ -720,6 +733,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					background: rgba(188, 202, 206, 0.15);
+					/*background: rgba(24, 55, 109, 0.15);*/
 				}
 
 		#header.reveal {
@@ -749,6 +763,12 @@
 			#header.alt nav {
 				right: 2.5em;
 				top: 1.75em;
+				color: black;
+
+			}
+
+			#header.alt h1 {
+				color: black;
 			}
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
@@ -838,8 +858,8 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(14, 45, 99, 0.6);
-			color: white;
+			/*background: rgba(14, 45, 99, 0.6);*/
+			color: black;
 			display: inline-block;
 			opacity: 0;
 			padding: 3em;
@@ -852,11 +872,11 @@
 		}
 
 		.home-banner {
-			background-image: url("../images/earth.jpg");
+			background-image: url("../images/clouds.jpg");
 		}
 
 		.student-banner {
-			background-image: url("../images/students4.jpg");
+			background-image: url("../images/foto-students.jpg");
 
 		}
 
@@ -867,12 +887,12 @@
 		}
 
 		.worker-banner {
-			background-image: url("../images/workers5.jpg");
+			background-image: url("../images/workers.jpg");
 
 		}
 
 		.enterprise-banner {
-			background-image: url("../images/enterprise2.jpg");
+			background-image: url("../images/enterprise.jpg");
 
 		}
 
@@ -1192,5 +1212,5 @@ select {
 
 .people .icon:hover, 
 .people h3:hover {
-	color: #3fb1a3;
+	color: #18376D;
 }

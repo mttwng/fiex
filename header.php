@@ -36,8 +36,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 
-		<?php if ($page == 'index.php' || $page == 'signup.php' || $page == 'signup_done.php') { ?>
-			<style type="text/css">#header.alt {color: white;}</style>			
+		<?php if ($page == 'students.php') { ?>
+			<style type="text/css">#header.alt nav, #header.alt h1 {color: white;}</style>			
 		<?php }
 		?> 
 	</head>
@@ -68,12 +68,13 @@
 								</li>
 							</ul>
 						</li> -->
+						<li><a href="index.php">HOME</a></li>
 						<li class="submenu">
 							<a href="">Who are you?</a>
 							<ul>
-								<li><a href="students.php">Student</a></li>
-								<li><a href="workers.php">Worker</a></li>
-								<li><a href="enterprise.php">Enterprise</a></li>
+								<li><a style="text-align:center" href="students.php">Student</a></li>
+								<li><a style="text-align:center" href="workers.php">Worker</a></li>
+								<li><a style="text-align:center" href="enterprise.php">Enterprise</a></li>
 							</ul>
 						</li>
 						<li><a href="signup.php" class="button special">Sign Up</a></li>

@@ -11,11 +11,11 @@
 					<p>Cross-border transactions are expensive. <br>
 					Fiex isn’t. Our innovative mechanism <br> 
 					breaks borders and cuts fees by 95%.</p>
-					<footer>
+					<!-- <footer>
 						<ul class="buttons vertical">
 							<li><a href="signup.php" class="button full-width">Sign Up</a></li>
 						</ul>
-					</footer>
+					</footer> -->
 
 				</div>
 
@@ -26,9 +26,9 @@
 
 				<header class="special container">
 					<div class="row 200%">
-						<div class="5u"> <hr> </div>
-						<div class="2u"> <img src="images/logo.png" class="img"> </div>
-						<div class="5u"> <hr> </div>
+						<div class="5u 1u(narrower)"> <hr> </div>
+						<div class="2u 4u(narrower) -2u(narrower)"> <img src="images/logo.png" class="img"> </div>
+						<div class="5u 1u(narrower)"> <hr> </div>
 
 					</div>
 					<h2>Break Borders. <strong>Fiex</strong> It.</h2>
@@ -46,7 +46,9 @@
 								</header>
 
 								<form name="convert">
-
+									<i style="font-style: italic">Our customers save an average of $39 per transaction vs a bank</i>
+									<br>
+									<br>
 									Convert USD to:
 									<div class="styled-select">
 										<select id="conversionType">
@@ -61,7 +63,6 @@
 									Receive: <input id="answer" type="text" name="answer" readonly="readonly"/>
 									<br>
 									<input id="convertButton" type="button" value="Convert"/>
-
 
 								</form>
 
@@ -146,11 +147,11 @@
 							<h2>Meet the Team</h2>
 						</header>
 						<div class="row ">
-							<div class="4u 6u(narrower)">
+							<div class="4u 12u(narrower)">
 
 								<section>
 									<div class="row">
-										<div class="6u -3u 8unarrower)">
+										<div class="6u -3u">
 												<img src="images/jackson.jpg" class="img-responsive img-rounded">
 										</div>
 									</div>
@@ -164,11 +165,11 @@
 								</section>
 
 							</div>
-							<div class="4u 6u(narrower)">
+							<div class="4u 12u(narrower)">
 
 								<section>
 									<div class="row">
-										<div class="6u -3u 8u(narrower)">
+										<div class="6u -3u">
 												<img src="images/mira.jpg" class="img-responsive img-rounded">
 										</div>
 									</div>
@@ -182,11 +183,11 @@
 								</section>
 
 							</div>
-							<div class="4u 6u(narrower)">
+							<div class="4u 12u(narrower)">
 
 								<section>
 									<div class="row">
-										<div class="6u -3u 8u(narrower)">
+										<div class="6u -3u">
 												<img src="images/leanne.jpg" class="img-responsive img-rounded">
 										</div>
 									</div>
@@ -201,11 +202,11 @@
 
 							</div>
 						
-							<div class="4u 6u(narrower)">
+							<div class="4u 12u(narrower)">
 
 								<section>
 									<div class="row">
-										<div class="6u -3u 8u(narrower)">
+										<div class="6u -3u">
 												<img src="images/matt.jpg" class="img-responsive img-rounded">
 										</div>
 									</div>
@@ -219,11 +220,11 @@
 								</section>
 
 							</div>
-							<div class="4u 6u(narrower)">
+							<div class="4u 12u(narrower)">
 
 								<section>
 									<div class="row">
-										<div class="6u -3u 8u(narrower)">
+										<div class="6u -3u">
 												<img src="images/shutao.jpg" class="img-responsive img-rounded">
 										</div>
 									</div>
@@ -238,11 +239,11 @@
 
 							</div>
 							
-							<div class="4u 6u(narrower)">
+							<div class="4u 12u(narrower)">
 
 								<section>
 									<div class="row">
-										<div class="6u -3u 8u(narrower)">
+										<div class="6u -3u">
 												<img src="images/li.jpg" class="img-responsive img-rounded">
 										</div>
 									</div>
