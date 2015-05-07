@@ -567,7 +567,7 @@ input[type="reset"],
 	input[type="submit"].special,
 	input[type="reset"].special,
 	.button.special {
-		background: rgba(56, 214, 123, 0.8);
+		background: rgba(50, 219, 128, 0.88);
 		color: white !important;
 	}
 
@@ -1222,4 +1222,9 @@ select {
 .people .icon:hover, 
 .people h3:hover {
 	color: #2980b9;
+}
+
+#howto {
+	padding-right: 4em;
+	padding-left: 4em;
 }

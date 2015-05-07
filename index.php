@@ -55,7 +55,7 @@
 											<h3>Students</h3>
 										</header>
 									</a>
-									<p>Pay tuition and living expenses with just one click.</p>
+									<p>Pay your tuition and living expenses with just one click.</p>
 								</section>
 
 							</div>
@@ -81,7 +81,7 @@
 											<h3>Enterprise</h3>
 										</header>
 									</a>
-									<p>Cut costs and ensure profit margins.</p>
+									<p>Cut costs and ensure profit margins to find success in your business.</p>
 								</section>
 
 							</div>
@@ -99,7 +99,7 @@
 						<header class="major">	
 							<h2>How does it work?</h2>
 						</header>
-						
+
 						<img src="images/howto.gif" id="howto" class="img-responsive">			
 						<br>
 						<p style="text-align:justify">	
