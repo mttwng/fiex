@@ -42,25 +42,36 @@
 							<div class="8u 12u(narrower) -2u">
 
 								<header>
-									<h2>How much can you save?</h2>
+									<h2 style="margin-bottom:0.45em;">How much can you save?</h2>
 								</header>
 
 								<form name="convert">
 									<i style="font-style: italic">Our customers save an average of $39 per transaction vs a bank</i>
 									<br>
 									<br>
-									Convert USD to:
+									Send:
 									<div class="styled-select">
 										<select id="conversionType">
-										    <option value="chinese">Chinese Yuan</option>
-										    <option value="japanese">Japanese Yen</option>
-										    <option value="korean">Korean Won</option>
+										    <option value="dollar">US Dollar</option>
+										    <option value="yuan">Chinese Yuan</option>
+										    <option value="yen">Japanese Yen</option>
+										    <option value="won">Korean Won</option>
 										</select>
 									</div>
 									<br>
-									Send ($USD): <input id="amount" type="text" />
+									Receive:
+									<div class="styled-select">
+										<select id="conversionTo">
+										    <option value="yuan">Chinese Yuan</option>
+										    <option value="yen">Japanese Yen</option>
+										    <option value="won">Korean Won</option>
+										    <option value="dollar">US Dollar</option>
+										</select>
+									</div>
 									<br>
-									Receive: <input id="answer" type="text" name="answer" readonly="readonly"/>
+									Amount: <input id="amount" class="amounts" type="text" placeholder="0.00"/>
+									<br>
+									Receive: <input id="answer" class="amounts" type="text" placeholder="0.00" name="answer" readonly="readonly"/>
 									<br>
 									<input id="convertButton" type="button" value="Convert"/>
 

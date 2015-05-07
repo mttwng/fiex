@@ -248,6 +248,12 @@ input#save {
 	text-align: center;
 }
 
+input.amounts {
+	border: none;
+	border-bottom: solid 1px black;
+
+}
+
 /* Image */
 
 	.image {
