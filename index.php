@@ -36,52 +36,8 @@
 					Using Fiex, you can save yourself from those obnoxious bank fees and set yourself free. </p> -->
 				</header>
 
-				<!-- One -->
-					<section class="wrapper style2 container special-alt">
-						<div class="row 50%">
-							<div class="8u 12u(narrower) -2u">
-
-								<header>
-									<h2 style="margin-bottom:0.45em;">How much can you save?</h2>
-								</header>
-
-								<form name="convert">
-									<i style="font-style: italic">Our customers save an average of $39 per transaction vs a bank</i>
-									<br>
-									<br>
-									Send:
-									<div class="styled-select">
-										<select id="conversionType">
-										    <option value="dollar">US Dollar</option>
-										    <option value="yuan">Chinese Yuan</option>
-										    <option value="yen">Japanese Yen</option>
-										    <option value="won">Korean Won</option>
-										</select>
-									</div>
-									<br>
-									Receive:
-									<div class="styled-select">
-										<select id="conversionTo">
-										    <option value="yuan">Chinese Yuan</option>
-										    <option value="yen">Japanese Yen</option>
-										    <option value="won">Korean Won</option>
-										    <option value="dollar">US Dollar</option>
-										</select>
-									</div>
-									<br>
-									Amount: <input id="amount" class="amounts" type="text" placeholder="0.00"/>
-									<br>
-									Receive: <input id="answer" class="amounts" type="text" placeholder="0.00" name="answer" readonly="readonly"/>
-									<br>
-									<input id="convertButton" type="button" value="Convert"/>
-
-								</form>
-
-
-							</div>
-
-						</div>
-					</section>
+<?php include 'calculator.php';?>
+				
 
 				<!-- Two -->
 					<section class="wrapper style1 container special">
@@ -143,8 +99,8 @@
 						<header class="major">	
 							<h2>How does it work?</h2>
 						</header>
-
-						<img src="images/howto.gif" class="img-responsive">			
+						
+						<img src="images/howto.gif" id="howto" class="img-responsive">			
 						<br>
 						<p style="text-align:justify">	
 							Fiex operates by transferring money within the borders of a currency. As opposed to transferring a sender's money directly to the recipient, the money is redirected through Fiex to a recipient of an equivalent transfer going in the opposite direction. Likewise, the recipient of the transfer receives their payment from a sender of equivalent amount, rather than the sender initiating the transfer. 

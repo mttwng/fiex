@@ -72,9 +72,9 @@
 						<li class="submenu">
 							<a href="">Who are you?</a>
 							<ul>
-								<li><a style="text-align:center" href="students.php">Student</a></li>
-								<li><a style="text-align:center" href="workers.php">Worker</a></li>
-								<li><a style="text-align:center" href="enterprise.php">Enterprise</a></li>
+								<li><a href="students.php">Student</a></li>
+								<li><a href="workers.php">Worker</a></li>
+								<li><a href="enterprise.php">Enterprise</a></li>
 							</ul>
 						</li>
 						<li><a href="signup.php" class="button special">Sign Up</a></li>

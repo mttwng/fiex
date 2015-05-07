@@ -38,40 +38,7 @@
 
 					</section>
 
-
-				<!-- Two -->
-					<section class="wrapper style2 container special-alt">
-						<div class="row 50%">
-							<div class="8u 12u(narrower) -2u">
-
-								<header>
-									<h2>How much can you save?</h2>
-								</header>
-
-								<form name="convert">
-
-									Convert USD to:
-									<div class="styled-select">
-										<select id="conversionType">
-										    <option value="chinese">Chinese Yuan</option>
-										    <option value="japanese">Japanese Yen</option>
-										    <option value="korean">Korean Won</option>
-										</select>
-									</div>
-									<br>
-									Send ($USD): <input id="amount" type="text" />
-									<br>
-									Receive: <input id="answer" type="text" name="answer" readonly="readonly"/>
-									<br>
-									<input id="convertButton" type="button" value="Convert"/>
-
-
-								</form>
-
-
-							</div>
-						</div>
-					</section>
+<?php include 'calculator.php';?>
 
 			</article>
 
