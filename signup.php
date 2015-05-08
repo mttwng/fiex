@@ -14,13 +14,13 @@
 					<header>
 						<h2>Sign up</h2>
 					</header>
-					<p>Fiex is still under development. <br>
-						Sign up with your email to be notified <br>
-						when we release. </p>
+					<p>Get started with Fiex today</p>
 					<footer>
 						<form method="post" action="signup_submit.php">
-							<p>Name: <input type="text" name="Name" size="20"></p>
-							<p>Email: <input type="text" name="Email" size="20"></p>
+							<!-- <p>Name: <input type="text" name="Name" size="20"></p> -->
+							<input type="text" name="Email" size="20" placeholder="Email">
+							<br>
+							<input type="password" name="Password" size="20" placeholder="Password">
 							<br>
 							<p><input class="full-width" type="submit" value="Submit" name="Submit"></p>
 						</form>
