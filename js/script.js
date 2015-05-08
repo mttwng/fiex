@@ -10,6 +10,10 @@ function initPage()
 function calcAnswer()
 {
     var value1 = document.getElementById("amount").value;
+    value1 = value1.replace("$", "");
+    value1 = value1.replace("¥", "");
+    value1 = value1.replace("₩", "");
+
     var conversionType = document.getElementById("conversionType").value;
     var conversionTo = document.getElementById("conversionTo").value;
 
@@ -74,7 +78,27 @@ function calcAnswer()
     if (value2 < 1) {
         value2 = 0;
     }
-    document.getElementById("answer").value = value2.toFixed(2);
+    value2 = value2.toFixed(2);
+    if (conversionTo == "dollar") {
+        var ret = "$" + value2;
+    } else if (conversionTo == "yuan" || conversionTo == "yen") {
+        var ret = "¥" + value2;
+    } else if (conversionTo == "won") {
+        var ret = "₩" + value2;
+    }
+
+    value1 += 1;
+    value1 = value1.toFixed(2);
+    if (conversionType == "dollar") {
+        var send = "$" + value1;
+    } else if (conversionType == "yuan" || conversionType == "yen") {
+        var send = "¥" + value1;
+    } else if (conversionType == "won") {
+        var send = "₩" + value1;
+    }
+
+    document.getElementById("amount").value = send;
+    document.getElementById("answer").value = ret;
 
 
 }

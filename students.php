@@ -33,7 +33,7 @@
 						</header>
 
 						<p style="text-align:justify">	
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Fiex’s team knows from personal experience how important it is to send our hard earned money to our children, parents, or anyone overseas. That’s why, the amount of work we have put into securing your money makes us extremely confident in our ability to safely send and receive money from home. In fact, Fiex is so confident, that if anything happens to your money, we pledge to take money out of our own pockets to send to your family at no extra cost to you.
 						</p>
 
 					</section>
