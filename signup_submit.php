@@ -19,8 +19,8 @@ $location = "signup_done.php";
 $sender = $recipient;
 
 # MAIL BODY
-$body = "Name: ".$_POST['Name']." \n";
-$body .= "Email: ".$_POST['Email']." \n";
+// $body = "Name: ".$_POST['Name']." \n";
+$body = "Email: ".$_POST['Email']." \n";
 # add more fields here if required
 
 ## SEND MESSGAE ##
