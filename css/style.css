@@ -849,7 +849,7 @@ input[type="reset"],
 	background-color: #fff;
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	color: white;
 	cursor: default;
 	padding: 6em 0;
@@ -885,7 +885,7 @@ input[type="reset"],
 	}
 
 	.student-banner {
-		background-image: url("../images/foto-students.jpg");
+		background-image: url("../images/berkeley.jpg");
 
 	}
 
@@ -1228,3 +1228,5 @@ select {
 	padding-right: 4em;
 	padding-left: 4em;
 }
+
+

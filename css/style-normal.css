@@ -46,6 +46,7 @@ footer.major {
 /* Banner */
 
 #banner {
+	background-size: cover;
 	background-attachment: scroll;
 }
 

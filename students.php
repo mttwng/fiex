@@ -12,7 +12,7 @@
 				<div class="inner">
 
 					<header>
-						<h2 style="color:white">Students</h2>
+						<h2>Students</h2>
 					</header>
 
 				</div>

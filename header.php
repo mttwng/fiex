@@ -28,7 +28,7 @@
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 
-		<meta property="og:image" content="images/earth.jpg" />
+		<meta property="og:image" content="images/clouds.jpg" />
 		<meta property="og:description" content="Cross-border transactions are expensive. Fiex isn’t. Our innovative mechanism breaks borders and cuts fees by 95%." />
 		<meta property="og:title" content="Fiex" />
 
@@ -36,10 +36,6 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 
-		<?php if ($page == 'students.php') { ?>
-			<style type="text/css">#header.alt nav, #header.alt h1 {color: white;}</style>			
-		<?php }
-		?> 
 	</head>
 	<body class="index">
 
